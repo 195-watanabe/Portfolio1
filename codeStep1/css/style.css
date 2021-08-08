@@ -1,0 +1,103 @@
+html {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  padding: 0 4%;
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgb(48, 48, 49);
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+  line-height: 0;
+  width: 120px;
+}
+
+.site-title a {
+  display: block;
+}
+
+
+header ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  background-color: silver;
+  line-height: 40px;
+  margin-left: 32px;
+}
+
+.mainVisual {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .mainVisual img {
+    height: calc(100vh - 60px);
+  }
+}
+
+.section-title {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 1px solid rgb(48, 48, 49);
+}
+
+#about .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 32px;
+}
+
+#about .text {
+  text-align: left;
+}
+
+.content-title {
+  margin:10px 0;
+}
+
+.text p {
+  margin: 0;
+}
+
