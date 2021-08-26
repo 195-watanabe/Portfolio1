@@ -1,0 +1,37 @@
+.top {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+  position: relative;
+  bottom: 8px;
+}
+
+/* .top_bg {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+} */
+
+.top_ttl {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  color: #fff;
+  z-index: 2;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.top_ttl small {
+  display: block;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .top_ttl {
+    left: 18%;
+    top: 32%;
+  }
+}
