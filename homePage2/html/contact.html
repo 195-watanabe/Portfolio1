@@ -72,7 +72,7 @@
         </div>
         <div class="contact_img"></div>
 
-        <form action="#" class="contact_form" id="form">
+        <form action="mail.php" class="contact_form" id="form" method="POST">
           <div class="contact_box">
             <label for="name" class="contact_form_ttl">お問い合わせ項目</label>
             <select name="subject" class="contact_form_box1" required="required">
@@ -86,15 +86,15 @@
           </div>
           <div class="contact_box">
             <label for="name1" class="contact_form_ttl">お名前（漢字）</label>
-            <input type="text" class="contact_form_box2" name="" required="required" placeholder="お名前をご入力下さい" id="name1">
+            <input type="text" class="contact_form_box2" name="お名前（漢字）" required="required" placeholder="お名前をご入力下さい" id="name1">
           </div>
           <div class="contact_box">
             <label for="email" class="contact_form_ttl">メールアドレス</label>
-            <input type="email" class="contact_form_box2" name="" required="required" placeholder="例）example@example.com" id="email">
+            <input type="email" class="contact_form_box2" name="メールアドレス" required="required" placeholder="例）example@example.com" id="email">
           </div>
           <div class="contact_box _area">
             <label for="message" class="contact_form_ttl">お問い合わせ内容</label>
-            <textarea name="message" class="contact_textarea" id="message" cols="30" rows="10" required="required" placeholder="お問い合わせ内容をご入力ください"></textarea>
+            <textarea name="お問い合わせ内容" class="contact_textarea" id="message" cols="30" rows="10" required="required" placeholder="お問い合わせ内容をご入力ください"></textarea>
           </div>
           <button type="submit" class="contact_btn">送信する</button>
         </div>
@@ -132,7 +132,7 @@
     </ul>
     <small class="footer_txt">©Losta Inc.All Right Reserved.</small>
   </footer>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="../js/common.js"></script>
   </body>
