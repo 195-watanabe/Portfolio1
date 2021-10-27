@@ -1,0 +1,134 @@
+.blog {
+  margin: 70px 22vw 340px 22vw;
+}
+
+.blog-img {
+  background-image: url(../images/spring/cb2.jpg);
+  background-size: cover;
+  height: 66vh;
+}
+
+.blog-date {
+  margin-top: 50px;
+  font-size: 48px;
+}
+
+.blog-title {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.blog-content {
+  margin-top: 28px;
+  font-size: 26px;
+  letter-spacing: .05em;
+}
+
+.blog-arrows {
+  margin: 185px auto 0;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 26px;
+}
+
+.blog-arrows .home {
+  font-size: 36px;
+  margin: 0 84px;
+}
+
+footer {
+  position: relative;
+  margin-bottom: 83px;
+}
+
+@media screen and (max-width: 1024px) {
+  .blog {
+    margin: 70px 30px 134px 30px;
+  }
+  .blog-img {
+    background-image: url(../images/spring/cb2.jpg);
+    background-size: cover;
+    height: 50vh;
+  }
+  .blog-date {
+    margin-top: 50px;
+    font-size: 42px;
+  }
+  .blog-title {
+    font-size: 42px;
+    font-weight: 400;
+  }
+  .blog-content {
+    margin-top: 36px;
+    font-size: 18px;
+    letter-spacing: .05em;
+  }
+  .blog-arrows {
+    margin: 50px auto 0;
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 15px;
+  }
+  .blog-arrows .home {
+    font-size: 20px;
+    margin: 0 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    margin: 70px 30px 134px 30px;
+  }
+  .blog-img {
+    background-image: url(../images/spring/cb2.jpg);
+    background-size: cover;
+    height: 42vh;
+  }
+  .blog-date {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+  .blog-title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .blog-content {
+    margin-top: 36px;
+    font-size: 16px;
+    letter-spacing: .05em;
+  }
+  .blog-arrows {
+    margin: 50px auto 0;
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 15px;
+  }
+  .blog-arrows .home {
+    font-size: 20px;
+    margin: 0 46px;
+  }
+}

@@ -1,3 +1,23 @@
-.test {
-  color: #ffa3cc;
+.header {
+  width: 550px;
+  height: auto;
+  padding: 20px 10px;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+  background-color: #000;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header_title {
+  font-size: 38px;
+  background-color: yellow;
+  color: #000;
+}
+
+.header p strong {
+  color: red;
 }

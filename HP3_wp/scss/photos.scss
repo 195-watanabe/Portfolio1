@@ -1,0 +1,383 @@
+@import 'color';
+@import 'mixin';
+
+.wraper {
+  padding: 0 135px;
+  position: relative;
+
+  h1 {
+    margin: 96px 0 80px;
+    text-align: center;
+    @include paris;
+    font-size: 154px;
+  }
+
+  h2 {
+    @include paris;
+    font-size: 80px;
+    // margin-top: 52px;
+    margin-bottom: 67px;
+  }
+}
+   
+
+// スライドショーのスタイル
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.slide{
+
+  .txt {
+    box-sizing: border-box;
+    box-shadow: 8px 4px 8px 0px #D5D5D5;
+  }
+}
+
+.item {
+  margin: 0 25px 52px;
+  height: 470px;
+  // background-color: yellowgreen;
+  font-size: 20px;
+
+    h3 {
+      padding-top: 24px;
+      padding-left: 12px;
+      font-weight: 400;
+    }
+
+    p {
+      padding: 50px 0 27px 12px;
+    }
+}
+
+.slider-arrow {
+  height: 42px;
+  margin-top: -21px;
+  color: $gray-light;
+  line-height: 42px;
+  font-size: 42px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+/* 左向き矢印のスタイル */
+.slider_prev {
+  left: 0px;
+}
+
+/* 右向き矢印のスタイル */
+.slider_next {
+  right: 0px;
+}
+
+.slick-dots{
+  bottom: -0px;
+  width: calc(100% - 60px);
+  
+  li{
+    margin: 0 5px;
+  }
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+}
+
+// 季節ごとのスタイル
+.spring {
+  h2 {
+    color: $pink;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $pink;
+  }
+
+
+  .img1 {
+    height: 313px;
+    background-image: url(../images/spring/cb2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2 {
+    height: 313px;
+    background-image: url(../images/spring/cb4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3 {
+    height: 313px;
+    background-image: url(../images/spring/cb3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img4 {
+    height: 313px;
+    background-image: url(../images/spring/cb4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img5 {
+    height: 313px;
+    background-image: url(../images/spring/cb3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img6 {
+    height: 313px;
+    background-image: url(../images/spring/cb2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img7 {
+    height: 313px;
+    background-image: url(../images/spring/cb4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img8 {
+    height: 313px;
+    background-image: url(../images/spring/cb3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.summer {
+  h2 {
+    color: $orange;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $orange;
+  }
+
+
+  .img1 {
+    height: 313px;
+    background-image: url(../images/summer/summer1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2 {
+    height: 313px;
+    background-image: url(../images/summer/summer2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3 {
+    height: 313px;
+    background-image: url(../images/summer/summer3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img4 {
+    height: 313px;
+    background-image: url(../images/summer/summer4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img5 {
+    height: 313px;
+    background-image: url(../images/summer/summer1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img6 {
+    height: 313px;
+    background-image: url(../images/summer/summer2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img7 {
+    height: 313px;
+    background-image: url(../images/summer/summer3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img8 {
+    height: 313px;
+    background-image: url(../images/summer/summer4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.autumn {
+  h2 {
+    color: $brown;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $brown;
+  }
+
+
+  .img1 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img4 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img5 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img6 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn5.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img7 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img8 {
+    height: 313px;
+    background-image: url(../images/autumn/autumn1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.winter {
+  h2 {
+    color: $iceBlue;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $iceBlue;
+  }
+
+
+  .img1 {
+    height: 313px;
+    background-image: url(../images/winter/winter1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img2 {
+    height: 313px;
+    background-image: url(../images/winter/winter2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img3 {
+    height: 313px;
+    background-image: url(../images/winter/winter3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .img4 {
+    height: 313px;
+    background-image: url(../images/winter/winter4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img5 {
+    height: 313px;
+    background-image: url(../images/winter/winter5.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img6 {
+    height: 313px;
+    background-image: url(../images/winter/winter1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img7 {
+    height: 313px;
+    background-image: url(../images/winter/winter2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .img8 {
+    height: 313px;
+    background-image: url(../images/winter/winter3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+footer {
+  // bottom: 85px;
+  padding: 85px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .wraper {
+    padding: 0 4px;
+    
+    h1 {
+      font-size: 80px;
+      margin-bottom : 0px;      
+    }
+
+    h2 {
+      font-size: 48px;
+      margin: 42px 32px 16px;
+    }
+  }
+}

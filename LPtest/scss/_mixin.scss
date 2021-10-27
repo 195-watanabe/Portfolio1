@@ -1,0 +1,10 @@
+@mixin flex($justify: space-between) {
+  display: flex;
+  justify-content: $justify;
+  align-items: center;
+}
+
+@mixin center {
+  margin: 0 auto;
+}
+

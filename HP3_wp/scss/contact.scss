@@ -1,0 +1,111 @@
+@import "color";
+@import "mixin";
+@import "main";
+
+
+
+.wrapper {
+  width: 100vw;
+  // height: 100vh;
+  position: absolute;
+  background: rgb(255,255,255);
+  background: linear-gradient(60deg, rgba(255,255,255,1) 0%, rgba(244,204,204,1) 20%, rgba(249,135,160,1) 80%, rgba(234,157,157,1) 100%);
+}
+
+.contact {
+  margin: 253px auto;
+  height: 886px;
+  width: 1000px;
+  background-color: white;
+
+  h2 {
+    height: auto;
+    padding: 57px 0 30px;
+    font-size: 80px;
+    @include paris;
+    text-align: center;
+  }
+}
+
+.cf7 {
+  width: 630px;
+  margin: 0px auto;
+  box-sizing: border-box;
+
+  dt {
+    float: left;
+    clear: left;
+    width: 35%;
+    padding: .5em 1em .5em 0;
+  }
+
+  dd {
+    margin-left: 35%;
+    margin-bottom: 2em;
+    margin-left: 0;
+	}
+}
+
+.btn_cf7 {
+  text-align: center;
+
+  input {
+  width: 192px;
+  }
+}
+
+footer {
+  color: white;
+  bottom: 84px;
+  background-color : transparent;
+}
+
+@media screen and (max-width: 1010px) {
+  .header-nav {
+    ul {
+      height: 8vh;
+    }
+  }
+
+  .contact {
+    width: 65vw;
+    height: 82vh;
+    margin: 8vh auto 27vh;
+
+    h2 {
+      font-size: 42px;
+      padding: 57px 0 26px;
+    }
+  }
+
+  .cf7 {
+    width: 85%;
+    
+    dt {
+      float: none;
+      clear: none;
+    }
+    
+    dd {
+      margin-bottom: 2em;
+      margin-left: 0;
+    }
+    
+  }
+
+  .btn_cf7 {
+    text-align: center;
+
+    input {
+      width: 150px;
+    }
+  }
+
+  footer {
+    color: white;
+    bottom: 46px;
+    background-color : transparent;
+  }
+}
+
+

@@ -1,0 +1,362 @@
+@charset "UTF-8";
+.wraper {
+  padding: 0 135px;
+  position: relative;
+}
+
+.wraper h1 {
+  margin: 96px 0 80px;
+  text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-weight: 400;
+  font-size: 154px;
+}
+
+.wraper h2 {
+  font-family: 'Parisienne', cursive;
+  font-weight: 400;
+  font-size: 80px;
+  margin-bottom: 67px;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.slide .txt {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 8px 4px 8px 0px #D5D5D5;
+          box-shadow: 8px 4px 8px 0px #D5D5D5;
+}
+
+.item {
+  margin: 0 25px 52px;
+  height: 470px;
+  font-size: 20px;
+}
+
+.item h3 {
+  padding-top: 24px;
+  padding-left: 12px;
+  font-weight: 400;
+}
+
+.item p {
+  padding: 50px 0 27px 12px;
+}
+
+.slider-arrow {
+  height: 42px;
+  margin-top: -21px;
+  color: #868686;
+  line-height: 42px;
+  font-size: 42px;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+}
+
+/* 左向き矢印のスタイル */
+.slider_prev {
+  left: 0px;
+}
+
+/* 右向き矢印のスタイル */
+.slider_next {
+  right: 0px;
+}
+
+.slick-dots {
+  bottom: -0px;
+  width: calc(100% - 60px);
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+}
+
+.spring h2 {
+  color: #E3A4B4;
+}
+
+.spring .slick-dots li.slick-active button:before {
+  color: #E3A4B4;
+}
+
+.spring .img1 {
+  height: 313px;
+  background-image: url(../images/spring/cb2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img2 {
+  height: 313px;
+  background-image: url(../images/spring/cb4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img3 {
+  height: 313px;
+  background-image: url(../images/spring/cb3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img4 {
+  height: 313px;
+  background-image: url(../images/spring/cb4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img5 {
+  height: 313px;
+  background-image: url(../images/spring/cb3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img6 {
+  height: 313px;
+  background-image: url(../images/spring/cb2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img7 {
+  height: 313px;
+  background-image: url(../images/spring/cb4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.spring .img8 {
+  height: 313px;
+  background-image: url(../images/spring/cb3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer h2 {
+  color: #F5A600;
+}
+
+.summer .slick-dots li.slick-active button:before {
+  color: #F5A600;
+}
+
+.summer .img1 {
+  height: 313px;
+  background-image: url(../images/summer/summer1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img2 {
+  height: 313px;
+  background-image: url(../images/summer/summer2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img3 {
+  height: 313px;
+  background-image: url(../images/summer/summer3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img4 {
+  height: 313px;
+  background-image: url(../images/summer/summer4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img5 {
+  height: 313px;
+  background-image: url(../images/summer/summer1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img6 {
+  height: 313px;
+  background-image: url(../images/summer/summer2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img7 {
+  height: 313px;
+  background-image: url(../images/summer/summer3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.summer .img8 {
+  height: 313px;
+  background-image: url(../images/summer/summer4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn h2 {
+  color: #A57027;
+}
+
+.autumn .slick-dots li.slick-active button:before {
+  color: #A57027;
+}
+
+.autumn .img1 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img2 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img3 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img4 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img5 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img6 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img7 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.autumn .img8 {
+  height: 313px;
+  background-image: url(../images/autumn/autumn1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter h2 {
+  color: #C1D3E9;
+}
+
+.winter .slick-dots li.slick-active button:before {
+  color: #C1D3E9;
+}
+
+.winter .img1 {
+  height: 313px;
+  background-image: url(../images/winter/winter1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img2 {
+  height: 313px;
+  background-image: url(../images/winter/winter2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img3 {
+  height: 313px;
+  background-image: url(../images/winter/winter3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img4 {
+  height: 313px;
+  background-image: url(../images/winter/winter4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img5 {
+  height: 313px;
+  background-image: url(../images/winter/winter5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img6 {
+  height: 313px;
+  background-image: url(../images/winter/winter1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img7 {
+  height: 313px;
+  background-image: url(../images/winter/winter2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.winter .img8 {
+  height: 313px;
+  background-image: url(../images/winter/winter3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  padding: 85px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .wraper {
+    padding: 0 4px;
+  }
+  .wraper h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+  }
+  .wraper h2 {
+    font-size: 48px;
+    margin: 42px 32px 16px;
+  }
+}
